@@ -1,0 +1,55 @@
+#servicess{
+    flex-direction: column;
+}
+
+#navbar{
+    flex-direction: column;
+}
+
+#ways{
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+#navbar ul li a{
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
+#logo img{
+    height: 100px;
+}
+            
+#services .box{
+    margin: 100px;
+}
+
+.hh{
+    font-size: 17px;
+    padding: 155px 0px 0px 71px;
+      white-space: nowrap;    /*to show text in one line*/
+}
+
+.hp{
+
+    font-size: 15px;
+     padding: 18px 0px 35px 69px;
+     width: 212px;
+     overflow-wrap: break-word;    /* to get text in next line if 212 width is crossed*/
+     word-wrap: break-word;
+     word-break: break-word;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    background: url('./PIC1.jpeg') no-repeat center/cover;                /*url('./')*/
+    height: 340px;
+    margin: 0px;
+  
+}
+
